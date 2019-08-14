@@ -1,0 +1,5 @@
+#How to reverse a list 
+word = str(raw_input("What yo word: "))
+reverse = word[::-1]
+
+#[::-1] does list[<start>:<stop>:<step>] it starts from the end, towards the first, taking each element
